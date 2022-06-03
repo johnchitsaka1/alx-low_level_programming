@@ -1,8 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-
-/* betty style doc for function main goes there */
+#include <stdio.h>
+/* betty style doc for fun*/
+/**
+ *main- generates random value and displays its sign
+ *
+ *return (0)
+ */
 int main(void)
 {
 	int n;
