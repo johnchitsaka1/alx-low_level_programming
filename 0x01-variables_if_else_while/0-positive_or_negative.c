@@ -6,7 +6,7 @@
 /**
  *main- generates random value and displays its sign
  *
- *return (0)
+ *return:0 when ok, non zero otherwise
  */
 int main(void)
 {
