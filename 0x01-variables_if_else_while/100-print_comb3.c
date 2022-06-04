@@ -6,7 +6,7 @@
  *
  *Return: 0 when executed ok
  */
-in main(void)
+int main(void)
 {
 	int i;
 	int j;
