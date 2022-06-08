@@ -1,5 +1,4 @@
-#include <stdio.h>
-void print_alphabet_x10(void);
+#include "main.h"
 
 /**
  *main - check the code
@@ -16,20 +15,4 @@ int main(void)
 		print_alphabet_x10();
 	}
 	return (0);
-}
-
-/**
- *print_alphabet_x10 - prints the alphabet
- *
- *Return: void
- */
-void print_alphabet_x10(void)
-{
-	int c;
-
-	for (c = 97; c < 123; c++)
-	{
-		putchar(c);
-	}
-	putchar('\n');
 }
