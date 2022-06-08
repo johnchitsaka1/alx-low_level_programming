@@ -1,5 +1,5 @@
-#include <stdio.h>
-int _islower(int c);
+#include "main.h"
+
 /**
  *main-check the code
  *
@@ -18,24 +18,3 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
-
-/**
- *_islower- checks if input is lower case
- *parameters@ c - used as place holder
- *Return: 1 if letter is in lower case, 0 otherwise
- */
-int _islower(int c)
-{
-	int i;
-
-	i = c;
-	if ((i > 96) && (i < 123))
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
-}
-
