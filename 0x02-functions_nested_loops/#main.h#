@@ -121,3 +121,11 @@ int print_sign(int n)
 }
 
 /**
+ *_abs - calculates the absolute value of an integer
+ *@int: interger input whose absolute value is to be computed
+ *
+ *Return: absolute value
+ */
+int _abs(int)
+{
+	int
