@@ -2,7 +2,6 @@
 /**
  *print_rev - prints string in reverse
  *@s: string to be reversed
- *@i: iterates through loop
  */
 void print_rev(char *s)
 {
@@ -20,5 +19,4 @@ void print_rev(char *s)
 		_putchar(*s);
 		i--;
 	}
-	_putchar('\n');
 }
