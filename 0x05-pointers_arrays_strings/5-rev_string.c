@@ -1,3 +1,4 @@
+#include "main"
 /**
  *rev_string - reverses a string
  *@s: string to be reversed
