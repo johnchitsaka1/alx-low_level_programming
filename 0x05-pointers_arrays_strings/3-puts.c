@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  *_puts - prints a string to std out
  *@str: string to print
