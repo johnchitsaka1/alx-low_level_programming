@@ -12,7 +12,7 @@ int _putchar(char c);
 
 /**
  *reset_to_98 - resets an int value to 98 via a pointer
- *@*n:pointer o change int value
+ *@n:pointer o change int value
  */
 void reset_to_98(int *n);
 
